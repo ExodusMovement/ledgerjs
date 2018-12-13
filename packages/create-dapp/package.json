@@ -11,8 +11,8 @@
     "react",
     "ganache"
   ],
-  "homepage": "https://github.com/ledgerhq/ledgerjs",
-  "bugs": "https://github.com/ledgerhq/ledgerjs/issues",
+  "homepage": "https://github.com/ExodusMovement/ledgerjs",
+  "bugs": "https://github.com/ExodusMovement/ledgerjs/issues",
   "license": "Apache-2.0",
   "bin": "scripts/create-dapp"
 }

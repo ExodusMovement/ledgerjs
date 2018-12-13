@@ -4,7 +4,7 @@
 
 Library for Ledger Hardware Wallets.
 
-[Github](https://github.com/LedgerHQ/ledgerjs/),
+[Github](https://github.com/ExodusMovement/ledgerjs/),
 [API Doc](http://ledgerhq.github.io/ledgerjs/),
 [Ledger Devs Slack](https://ledger-dev.slack.com/)
 
