@@ -142,7 +142,7 @@ Checklist before deploying a new release:
  yarn run publish
 ```
 
-then, go to [/releases](https://github.com/LedgerHQ/ledgerjs/releases) and create a release with change logs.
+then, go to [/releases](https://github.com/ExodusMovement/ledgerjs/releases) and create a release with change logs.
 
 **alternatively:**
 

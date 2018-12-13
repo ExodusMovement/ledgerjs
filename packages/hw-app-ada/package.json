@@ -3,7 +3,7 @@
   "version": "4.33.3",
   "description": "Ledger Hardware Wallet Cardano ADA API",
   "main": "lib/Ada.js",
-  "repository": "git+ssh://git@github.com/LedgerHQ/ledgerjs.git",
+  "repository": "git+ssh://git@github.com/ExodusMovement/ledgerjs.git",
   "keywords": [
     "Ledger",
     "LedgerWallet",
@@ -30,9 +30,9 @@
     "mocha": "^5.0.1"
   },
   "bugs": {
-    "url": "https://github.com/LedgerHQ/ledgerjs/issues"
+    "url": "https://github.com/ExodusMovement/ledgerjs/issues"
   },
-  "homepage": "https://github.com/LedgerHQ/ledgerjs#readme",
+  "homepage": "https://github.com/ExodusMovement/ledgerjs#readme",
   "scripts": {
     "flow": "flow",
     "clean": "bash ../../script/clean.sh",
