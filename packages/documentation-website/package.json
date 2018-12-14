@@ -1,7 +1,7 @@
 {
+  "private": true,
   "name": "documentation-website",
   "version": "4.23.0",
-  "private": true,
   "homepage": "./",
   "dependencies": {
     "react": "^16.5.2",

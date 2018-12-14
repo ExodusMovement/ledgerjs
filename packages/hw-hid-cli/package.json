@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@exodus/hw-hid-cli",
   "version": "4.32.0",
   "description": "Ledger Hardware Wallet cli utility to send apdu to hid",

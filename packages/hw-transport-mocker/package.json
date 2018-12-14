@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@exodus/hw-transport-mocker",
   "version": "4.32.0",
   "description": "Ledger Hardware Wallet mocker utilities used for tests",

@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@exodus/hw-transport-webusb",
   "version": "4.32.0",
   "description": "Ledger Hardware Wallet WebUSB implementation of the communication layer",
