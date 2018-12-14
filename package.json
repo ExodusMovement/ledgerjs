@@ -20,7 +20,7 @@
     "watch": "lerna run --parallel watch",
     "clean": "rm -rf node_modules packages/*/node_modules/ packages/*/flow-typed/ packages/*/lib flow-typed",
     "rebuild": "lerna run clean && lerna run build",
-    "publish": "yarn && lerna run clean && lerna run build && lerna publish --registry=https://registry.npmjs.org/"
+    "publish": "yarn && lerna run clean && lerna run build && lerna publish --registry=https://registry.npmjs.org/ --skip-git"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
