@@ -1,4 +1,4 @@
-import TransportNodeHid from "@ledgerhq/hw-transport-node-hid";
+import TransportNodeHid from "@exodus/hw-transport-node-hid";
 import readline from "readline";
 
 const rl = readline.createInterface({

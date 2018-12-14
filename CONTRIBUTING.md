@@ -2,7 +2,7 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-This repository hosts the `@ledgerhq/*` JavaScript libraries.
+This repository hosts the `@exodus/*` HW JavaScript libraries.
 
 ## JavaScript styleguide
 

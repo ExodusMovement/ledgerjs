@@ -1,12 +1,12 @@
 // @flow
 import HttpTransport from "./HttpTransport";
 import WebSocketTransport from "./WebSocketTransport";
-import Transport from "@ledgerhq/hw-transport";
+import Transport from "@exodus/hw-transport";
 import type {
   Observer,
   DescriptorEvent,
   Subscription
-} from "@ledgerhq/hw-transport";
+} from "@exodus/hw-transport";
 
 const getTransport = url =>
   !url.startsWith("ws") ? HttpTransport : WebSocketTransport;

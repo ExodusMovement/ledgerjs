@@ -1,10 +1,10 @@
 //@flow
-import Transport, { TransportError } from "@ledgerhq/hw-transport";
+import Transport, { TransportError } from "@exodus/hw-transport";
 import type {
   Observer,
   DescriptorEvent,
   Subscription
-} from "@ledgerhq/hw-transport";
+} from "@exodus/hw-transport";
 import { getLedgerDevices, requestLedgerDevice, isSupported } from "./webusb";
 import hidFraming from "./hid-framing";
 
@@ -15,7 +15,7 @@ const endpointNumber = 3;
 /**
  * WebUSB Transport implementation
  * @example
- * import TransportWebUSB from "@ledgerhq/hw-transport-webusb";
+ * import TransportWebUSB from "@exodus/hw-transport-webusb";
  * ...
  * TransportWebUSB.create().then(transport => ...)
  */

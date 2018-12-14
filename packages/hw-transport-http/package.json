@@ -1,5 +1,5 @@
 {
-  "name": "@ledgerhq/hw-transport-http",
+  "name": "@exodus/hw-transport-http",
   "version": "4.32.0",
   "description": "Ledger Hardware Wallet communication layer over http",
   "keywords": [
@@ -25,7 +25,7 @@
   "main": "lib/withStaticURLs.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@ledgerhq/hw-transport": "^4.32.0",
+    "@exodus/hw-transport": "^4.32.0",
     "axios": "^0.18.0",
     "ws": "^6.1.0"
   },

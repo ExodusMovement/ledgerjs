@@ -1,8 +1,8 @@
 import "babel-polyfill";
 
-import TransportU2F from "@ledgerhq/hw-transport-u2f";
-import TransportWebUSB from "@ledgerhq/hw-transport-webusb";
-import TransportWebBLE from "@ledgerhq/hw-transport-web-ble";
+import TransportU2F from "@exodus/hw-transport-u2f";
+import TransportWebUSB from "@exodus/hw-transport-webusb";
+import TransportWebBLE from "@exodus/hw-transport-web-ble";
 import runTests from "./runTests";
 
 window.Buffer = require("buffer").Buffer;

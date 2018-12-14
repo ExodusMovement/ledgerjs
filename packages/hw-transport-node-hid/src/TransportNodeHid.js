@@ -1,12 +1,12 @@
 //@flow
 
 import HID from "node-hid";
-import Transport, { TransportError } from "@ledgerhq/hw-transport";
+import Transport, { TransportError } from "@exodus/hw-transport";
 import type {
   Observer,
   DescriptorEvent,
   Subscription
-} from "@ledgerhq/hw-transport";
+} from "@exodus/hw-transport";
 import getDevices from "./getDevices";
 import listenDevices from "./listenDevices";
 
@@ -33,7 +33,7 @@ let listenDevicesDebug = () => {};
 /**
  * node-hid Transport implementation
  * @example
- * import TransportNodeHid from "@ledgerhq/hw-transport-node-u2f";
+ * import TransportNodeHid from "@exodus/hw-transport-node-u2f";
  * ...
  * TransportNodeHid.create().then(transport => ...)
  */

@@ -1,5 +1,5 @@
 import Joi from "joi";
-import TransportNodeHid from "@ledgerhq/hw-transport-node-hid";
+import TransportNodeHid from "@exodus/hw-transport-node-hid";
 import { expect } from "chai";
 import { yellow } from "chalk";
 

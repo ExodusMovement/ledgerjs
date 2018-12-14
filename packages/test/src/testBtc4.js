@@ -1,4 +1,4 @@
-import Btc from "@ledgerhq/hw-app-btc";
+import Btc from "@exodus/hw-app-btc";
 
 export default async transport => {
   const btc = new Btc(transport);

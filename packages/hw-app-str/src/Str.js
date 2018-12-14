@@ -16,7 +16,7 @@
  ********************************************************************************/
 //@flow
 
-import type Transport from "@ledgerhq/hw-transport";
+import type Transport from "@exodus/hw-transport";
 import {
   splitPath,
   foreach,
@@ -53,7 +53,7 @@ const TX_MAX_SIZE = 1540;
  * Stellar API
  *
  * @example
- * import Str from "@ledgerhq/hw-app-str";
+ * import Str from "@exodus/hw-app-str";
  * const str = new Str(transport)
  */
 export default class Str {

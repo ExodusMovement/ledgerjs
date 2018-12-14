@@ -4,7 +4,7 @@ import getSnapshotJSONFile from "./getSnapshotJSONFile";
 import {
   createTransportReplayer,
   RecordStore
-} from "@ledgerhq/hw-transport-mocker";
+} from "@exodus/hw-transport-mocker";
 import runTests from "./runTests";
 
 const snapshots = JSON.parse(fs.readFileSync(getSnapshotJSONFile(), "utf8"));

@@ -1,6 +1,6 @@
 //@flow
 import { NativeModules } from "react-native";
-import Transport from "@ledgerhq/hw-transport";
+import Transport from "@exodus/hw-transport";
 
 type DeviceObj = {
   vendorId: number,

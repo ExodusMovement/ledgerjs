@@ -1,5 +1,5 @@
 //@flow
-import Transport, { TransportError } from "@ledgerhq/hw-transport";
+import Transport, { TransportError } from "@exodus/hw-transport";
 import axios from "axios";
 
 /**
