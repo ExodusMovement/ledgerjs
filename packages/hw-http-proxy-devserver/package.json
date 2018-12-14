@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@exodus/hw-http-proxy-devserver",
   "version": "4.32.0",
   "description": "Ledger Hardware Wallet debug communication layer http proxy (for development only)",

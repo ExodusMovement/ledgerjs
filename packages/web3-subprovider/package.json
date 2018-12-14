@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@exodus/web3-subprovider",
   "version": "4.32.0",
   "description": "Ledger Hardware Wallet Ethereum Web3 subprovider",

@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@exodus/hw-transport-http",
   "version": "4.32.0",
   "description": "Ledger Hardware Wallet communication layer over http",
