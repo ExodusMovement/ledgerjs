@@ -19,6 +19,9 @@
     "url": "https://github.com/ExodusMovement/ledgerjs/issues"
   },
   "homepage": "https://github.com/ExodusMovement/ledgerjs",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "main": "lib/Str.js",
   "license": "Apache-2.0",
   "dependencies": {
