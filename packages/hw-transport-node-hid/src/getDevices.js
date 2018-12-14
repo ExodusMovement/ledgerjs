@@ -1,5 +1,5 @@
 // @flow
-import HID from "node-hid";
+import HID from "@exodus/node-hid";
 
 const filterInterface = device =>
   ["win32", "darwin"].includes(process.platform)
