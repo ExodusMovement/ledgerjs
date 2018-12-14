@@ -1,6 +1,6 @@
 {
   "name": "@exodus/hw-app-eth",
-  "version": "4.32.0",
+  "version": "4.32.2",
   "description": "Ledger Hardware Wallet Ethereum Application API",
   "keywords": [
     "Ledger",
@@ -22,7 +22,7 @@
   "main": "lib/Eth.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@exodus/hw-transport": "^4.32.0"
+    "@exodus/hw-transport": "^4.32.2"
   },
   "devDependencies": {
     "flow-bin": "^0.68.0",
