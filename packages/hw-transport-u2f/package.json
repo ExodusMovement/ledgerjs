@@ -21,9 +21,6 @@
     "url": "https://github.com/ExodusMovement/ledgerjs/issues"
   },
   "homepage": "https://github.com/ExodusMovement/ledgerjs",
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "lib/TransportU2F.js",
   "license": "Apache-2.0",
   "dependencies": {

@@ -21,9 +21,6 @@
     "url": "https://github.com/ExodusMovement/ledgerjs/issues"
   },
   "homepage": "https://github.com/ExodusMovement/ledgerjs",
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "lib/cmd.js",
   "bin": {
     "ledger-hw-hid-cli": "bin.js"
