@@ -1,6 +1,6 @@
 //@flow
 
-import HID from "node-hid";
+import HID from "@exodus/node-hid";
 import Transport, { TransportError } from "@exodus/hw-transport";
 import type {
   Observer,

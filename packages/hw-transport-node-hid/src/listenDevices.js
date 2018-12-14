@@ -1,7 +1,7 @@
 // @flow
 
 import EventEmitter from "events";
-import usb from "usb";
+import usb from "@exodus/usb";
 import debounce from "lodash/debounce";
 import getDevices from "./getDevices";
 
