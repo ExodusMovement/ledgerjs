@@ -1,5 +1,5 @@
 {
-  "name": "@ledgerhq/hw-app-xrp",
+  "name": "@exodus/hw-app-xrp",
   "version": "4.32.0",
   "description": "Ledger Hardware Wallet Ripple Application API",
   "keywords": [
@@ -25,7 +25,7 @@
   "main": "lib/Xrp.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@ledgerhq/hw-transport": "^4.32.0",
+    "@exodus/hw-transport": "^4.32.0",
     "bip32-path": "0.4.2"
   },
   "devDependencies": {

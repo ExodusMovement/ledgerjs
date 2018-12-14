@@ -1,11 +1,11 @@
 import "babel-polyfill";
 
 import fs from "fs";
-import TransportHid from "@ledgerhq/hw-transport-node-hid";
+import TransportHid from "@exodus/hw-transport-node-hid";
 import {
   createTransportRecorder,
   RecordStore
-} from "@ledgerhq/hw-transport-mocker";
+} from "@exodus/hw-transport-mocker";
 import getSnapshotJSONFile from "./getSnapshotJSONFile";
 import ensureBtcSnapshotAccount from "./ensureBtcSnapshotAccount";
 import runTests from "./runTests";

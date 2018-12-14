@@ -1,5 +1,5 @@
 //@flow
-import Transport, { TransportError } from "@ledgerhq/hw-transport";
+import Transport, { TransportError } from "@exodus/hw-transport";
 import { BleManager } from "react-native-ble-plx";
 
 const ServiceUuid = "d973f2e0-b19e-11e2-9e96-0800200c9a66";
@@ -113,7 +113,7 @@ async function send(characteristic, apdu, termination, debug) {
 /**
  * react-native bluetooth BLE implementation
  * @example
- * import BluetoothTransport from "@ledgerhq/react-native-hw-transport-ble";
+ * import BluetoothTransport from "@exodus/react-native-hw-transport-ble";
  */
 export default class BluetoothTransport extends Transport<Device> {
   static isSupported = (): Promise<boolean> =>

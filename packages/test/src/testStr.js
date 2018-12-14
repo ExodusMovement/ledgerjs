@@ -1,4 +1,4 @@
-import Str from "@ledgerhq/hw-app-str";
+import Str from "@exodus/hw-app-str";
 
 export default async transport => {
   const str = new Str(transport);

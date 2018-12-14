@@ -1,13 +1,13 @@
 //@flow
 
-import type Transport from "@ledgerhq/hw-transport";
+import type Transport from "@exodus/hw-transport";
 import BIPPath from "bip32-path";
 
 /**
  * Ripple API
  *
  * @example
- * import Xrp from "@ledgerhq/hw-app-xrp";
+ * import Xrp from "@exodus/hw-app-xrp";
  * const xrp = new Xrp(transport);
  */
 export default class Xrp {

@@ -1,7 +1,7 @@
 //@flow
 
 import { sign, isSupported } from "u2f-api";
-import Transport, { TransportError } from "@ledgerhq/hw-transport";
+import Transport, { TransportError } from "@exodus/hw-transport";
 
 function wrapU2FTransportError(originalError, message, id) {
   const err = new TransportError(message, id);
@@ -85,7 +85,7 @@ function isTimeoutU2FError(u2fError) {
 /**
  * U2F web Transport implementation
  * @example
- * import TransportU2F from "@ledgerhq/hw-transport-u2f";
+ * import TransportU2F from "@exodus/hw-transport-u2f";
  * ...
  * TransportU2F.create().then(transport => ...)
  */

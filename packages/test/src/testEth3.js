@@ -1,4 +1,4 @@
-import Eth from "@ledgerhq/hw-app-eth";
+import Eth from "@exodus/hw-app-eth";
 
 export default async transport => {
   const eth = new Eth(transport);

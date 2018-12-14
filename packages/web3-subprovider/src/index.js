@@ -1,6 +1,6 @@
 //@flow
-import AppEth from "@ledgerhq/hw-app-eth";
-import type Transport from "@ledgerhq/hw-transport";
+import AppEth from "@exodus/hw-app-eth";
+import type Transport from "@exodus/hw-transport";
 import HookedWalletSubprovider from "web3-provider-engine/dist/es5/subproviders/hooked-wallet";
 import stripHexPrefix from "strip-hex-prefix";
 import EthereumTx from "ethereumjs-tx";
@@ -55,8 +55,8 @@ const defaultOptions = {
  * @param getTransport gets lazily called each time the device is needed. It is a function that returns a Transport instance. You can typically give `()=>TransportU2F.create()`
  * @example
 import Web3 from "web3";
-import createLedgerSubprovider from "@ledgerhq/web3-subprovider";
-import TransportU2F from "@ledgerhq/hw-transport-u2f";
+import createLedgerSubprovider from "@exodus/web3-subprovider";
+import TransportU2F from "@exodus/hw-transport-u2f";
 import ProviderEngine from "web3-provider-engine";
 import RpcSubprovider from "web3-provider-engine/subproviders/rpc";
 const engine = new ProviderEngine();

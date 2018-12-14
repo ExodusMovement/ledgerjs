@@ -1,4 +1,4 @@
-import Btc from "@ledgerhq/hw-app-btc";
+import Btc from "@exodus/hw-app-btc";
 
 const expectedBitcoinAddress = "13KE6TffArLh4fVM6uoQzvsYq5vwetJcVM";
 export default async transport => {

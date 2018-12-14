@@ -1,4 +1,4 @@
-import TransportNodeHid from "@ledgerhq/hw-transport-node-hid";
+import TransportNodeHid from "@exodus/hw-transport-node-hid";
 import http from "http";
 import express from "express";
 import cors from "cors";

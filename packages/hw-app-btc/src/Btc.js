@@ -5,7 +5,7 @@
 // - try to avoid every place we do hex<>Buffer conversion. also accept Buffer as func parameters (could accept both a string or a Buffer in the API)
 // - there are redundant code across apps (see Eth vs Btc). we might want to factorize it somewhere. also each app apdu call should be abstracted it out as an api
 import { foreach, doIf, asyncWhile, splitPath, eachSeries } from "./utils";
-import type Transport from "@ledgerhq/hw-transport";
+import type Transport from "@exodus/hw-transport";
 import createHash from "create-hash";
 
 const MAX_SCRIPT_BLOCK = 50;
@@ -22,7 +22,7 @@ const OP_CHECKSIG = 0xac;
  * Bitcoin API.
  *
  * @example
- * import Btc from "@ledgerhq/hw-app-btc";
+ * import Btc from "@exodus/hw-app-btc";
  * const btc = new Btc(transport)
  */
 export default class Btc {

@@ -1,6 +1,6 @@
 import Web3 from "web3";
-import TransportU2F from "@ledgerhq/hw-transport-u2f";
-import createLedgerSubprovider from "@ledgerhq/web3-subprovider";
+import TransportU2F from "@exodus/hw-transport-u2f";
+import createLedgerSubprovider from "@exodus/web3-subprovider";
 import ProviderEngine from "web3-provider-engine";
 import FetchSubprovider from "web3-provider-engine/subproviders/fetch";
 

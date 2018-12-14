@@ -1,7 +1,7 @@
 // @flow
 /* eslint-disable prefer-template */
 
-import Transport, { TransportError } from "@ledgerhq/hw-transport";
+import Transport, { TransportError } from "@exodus/hw-transport";
 import { Observable, merge } from "rxjs";
 import { share, tap } from "rxjs/operators";
 import { logSubject } from "./debug";
@@ -52,7 +52,7 @@ const transportsCache = {};
 /**
  * react-native bluetooth BLE implementation
  * @example
- * import BluetoothTransport from "@ledgerhq/hw-transport-web-ble";
+ * import BluetoothTransport from "@exodus/hw-transport-web-ble";
  */
 export default class BluetoothTransport extends Transport<Device | string> {
   static isSupported = (): Promise<boolean> =>

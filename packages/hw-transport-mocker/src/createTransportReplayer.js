@@ -1,5 +1,5 @@
 //@flow
-import Transport from "@ledgerhq/hw-transport";
+import Transport from "@exodus/hw-transport";
 import type RecordStore from "./RecordStore";
 
 export default (recordStore: RecordStore): Class<Transport<*>> => {

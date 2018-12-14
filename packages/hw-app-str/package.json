@@ -1,5 +1,5 @@
 {
-  "name": "@ledgerhq/hw-app-str",
+  "name": "@exodus/hw-app-str",
   "version": "4.32.0",
   "description": "Ledger Hardware Wallet Stellar Application API",
   "keywords": [
@@ -25,7 +25,7 @@
   "main": "lib/Str.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@ledgerhq/hw-transport": "^4.32.0",
+    "@exodus/hw-transport": "^4.32.0",
     "base32.js": "^0.1.0",
     "sha.js": "^2.3.6",
     "tweetnacl": "^1.0.0"
