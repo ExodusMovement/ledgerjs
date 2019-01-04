@@ -37,9 +37,9 @@ applications. There are implementations for Node and Browser.
 **Basic example:**
 
 ```js
-import Transport from "@ledgerhq/hw-transport-node-hid";
-// import Transport from "@ledgerhq/hw-transport-u2f"; // for browser
-import AppBtc from "@ledgerhq/hw-app-btc";
+import Transport from "@exodus/hw-transport-node-hid";
+// import Transport from "@exodus/hw-transport-u2f"; // for browser
+import AppBtc from "@exodus/hw-app-btc";
 const getBtcAddress = async () => {
   const transport = await Transport.create();
   const btc = new AppBtc(transport);
