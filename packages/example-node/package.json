@@ -1,13 +1,13 @@
 {
   "private": true,
   "name": "@exodus/example-node",
-  "version": "4.32.3",
+  "version": "4.33.5",
   "main": "index.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@exodus/hw-app-btc": "^4.32.3",
-    "@exodus/hw-app-eth": "^4.32.3",
-    "@exodus/hw-transport-node-hid": "^4.32.3"
+    "@exodus/hw-app-btc": "^4.33.5",
+    "@exodus/hw-app-eth": "^4.33.5",
+    "@exodus/hw-transport-node-hid": "^4.33.5"
   },
   "devDependencies": {
     "flow-bin": "^0.68.0",
