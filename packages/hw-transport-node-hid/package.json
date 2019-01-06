@@ -26,8 +26,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@exodus/hw-transport": "^4.33.6",
-    "@exodus/node-hid": "^0.7.4",
-    "@exodus/usb": "^1.5.0",
+    "@exodus/node-hid": "^0.7.5",
+    "@exodus/usb": "^1.5.1",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
