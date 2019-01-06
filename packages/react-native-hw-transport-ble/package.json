@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@exodus/react-native-hw-transport-ble",
-  "version": "4.33.5",
+  "version": "4.33.6",
   "description": "Ledger Hardware Wallet bluetooth BLE implementation of the transport layer",
   "keywords": [
     "Ledger",
@@ -24,7 +24,7 @@
     "react-native-ble-plx": "^0.8.0"
   },
   "dependencies": {
-    "@exodus/hw-transport": "^4.33.5",
+    "@exodus/hw-transport": "^4.33.6",
     "invariant": "^2.2.4"
   },
   "devDependencies": {

@@ -7,9 +7,9 @@
     "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
   },
   "dependencies": {
-    "@exodus/hw-app-btc": "^4.33.5",
-    "@exodus/hw-app-eth": "^4.33.5",
-    "@exodus/hw-transport-u2f": "^4.33.5",
+    "@exodus/hw-app-btc": "^4.33.6",
+    "@exodus/hw-app-eth": "^4.33.6",
+    "@exodus/hw-transport-u2f": "^4.33.6",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
@@ -19,5 +19,5 @@
     "cross-env": "^5.2.0",
     "parcel-bundler": "^1.6.2"
   },
-  "version": "4.33.5"
+  "version": "4.33.6"
 }
