@@ -1,6 +1,0 @@
-[submodule "node-hid"]
-	path = node-hid
-	url = git@github.com:ExodusMovement/node-hid.git
-[submodule "node-usb"]
-	path = node-usb
-	url = git@github.com:ExodusMovement/node-usb.git
