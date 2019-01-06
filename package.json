@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "preinstall": "node -e \"if (process.env.npm_execpath.indexOf('yarn') === -1) { console.log('\u001b[31mPlease use yarn\u001b[0m'); process.exit(1); }\"",
+    "preinstall": "node -e \"if (process.env.npm_execpath.indexOf('yarn') === -1) { console.log('\u001b[31mPlease use yarn\u001b[0m'); process.exit(1); }\" && yarn ensure-node-version",
     "postinstall": "flow-mono create-symlinks packages/hw-transport/.flowconfig && flow-mono install-types --overwrite --ignoreDeps=peer || echo 'failed to setup flow-typed'",
     "test": "yarn run build && lerna run test && yarn run lint && yarn run flow && yarn run prettier-diff",
     "test-node": "cd packages/test && yarn run test-node",
@@ -15,6 +15,7 @@
     "prettier": "prettier --write 'packages/*/src/**/*.js'",
     "prettier-diff": "prettier --list-different 'packages/*/src/**/*.js'",
     "lint": "eslint packages/**/src",
+    "ensure-node-version": "node -v | grep 'v8.9' || (echo 'ERR: must use node version in .nvmrc' && exit 1)",
     "flow": "lerna --concurrency 1 run flow & sleep 600 && killall flow",
     "build": "BABEL_ENV=production && lerna run build",
     "watch": "lerna run --parallel watch",
