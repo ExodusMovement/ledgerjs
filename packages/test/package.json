@@ -1,18 +1,18 @@
 {
   "private": true,
   "name": "@exodus/test",
-  "version": "4.33.6",
+  "version": "4.33.7",
   "main": "index.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "@exodus/hw-app-ada": "^4.33.6",
-    "@exodus/hw-app-btc": "^4.33.6",
-    "@exodus/hw-app-eth": "^4.33.6",
-    "@exodus/hw-app-str": "^4.33.6",
-    "@exodus/hw-app-xrp": "^4.33.6",
-    "@exodus/hw-transport-mocker": "^4.33.6",
-    "@exodus/hw-transport-node-hid": "^4.33.6",
-    "@exodus/hw-transport-webusb": "^4.33.6",
+    "@exodus/hw-app-ada": "^4.33.7",
+    "@exodus/hw-app-btc": "^4.33.7",
+    "@exodus/hw-app-eth": "^4.33.7",
+    "@exodus/hw-app-str": "^4.33.7",
+    "@exodus/hw-app-xrp": "^4.33.7",
+    "@exodus/hw-transport-mocker": "^4.33.7",
+    "@exodus/hw-transport-node-hid": "^4.33.7",
+    "@exodus/hw-transport-webusb": "^4.33.7",
     "budo": "^11.4.1"
   },
   "devDependencies": {
